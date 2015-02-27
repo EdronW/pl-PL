@@ -47,12 +47,12 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Network Services: Postfix, Apache, NFS, Samba, Squid, LDAP"
-msgstr ""
+msgstr "Usługi sieciowe: Postfix, Apache, NFS, Samba, Squid, LDAP"
 
 #. Tag: para
 #, no-c-format
 msgid "Network services are the programs that users interact with directly in their daily work. They're the tip of the information system iceberg, and this chapter focuses on them; the hidden parts they rely on are the infrastructure we already described."
-msgstr ""
+msgstr "Usługi sieciowe są programami, które użytkownicy wykorzystują bezpośrednio, każdego dnia/(myśle ze tłum. dosł. nie ma tu sensu)/Są (<--ndosł.) ten rozdział jest po to. Ukryte elementy na których się one opierają, są tą właśnie infrastrukturą, którą opisaliśmy wcześniej."
 
 #. Tag: title
 #, no-c-format
@@ -62,7 +62,7 @@ msgstr ""
 #. Tag: para
 #, no-c-format
 msgid "The Falcot Corp administrators selected Postfix for the electronic mail server, due to its reliability and its ease of configuration. Indeed, its design enforces that each task is implemented in a process with the minimum set of required permissions, which is a great mitigation measure against security problems."
-msgstr ""
+msgstr "Administratorzy Falcot Corp wybrali Postfix dla serwera poczty elektronicznej, z powodu jego niezawodności i łatwej konfiguracji. Jego konstrukcja wymusza to, że każde zadanie jest wdrażane w procesie z minimalnego zestawu wymaganych uprawnień,"
 
 #. Tag: indexterm
 #, no-c-format
@@ -167,7 +167,7 @@ msgstr ""
 #. Tag: para
 #, no-c-format
 msgid "The second question deals with the full name of the machine, used to generate email addresses from a local user name; the full name of the machine ends up as the part after the at-sign (“@”). In the case of Falcot, the answer should be <literal>mail.falcot.com</literal>. This is the only question asked by default, but the configuration it leads to is not complete enough for the needs of Falcot, which is why the administrators run <command>dpkg-reconfigure postfix</command> so as to be able to customize more parameters."
-msgstr ""
+msgstr "Drugie pytanie dotyczy pełnej nazwy maszyny, używanej do generowania adresów email z imienia lokalnego użytkownika; Pełna nazwa..."
 
 #. Tag: para
 #, no-c-format
@@ -187,12 +187,12 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Role of the DNS <emphasis>MX</emphasis> record while sending a mail"
-msgstr ""
+msgstr "Rola DNS MX polega na rejestrowaniu/zapisywaniu podczas wysyłania maila"
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>EXTRA</emphasis> Querying the MX records"
-msgstr ""
+msgstr "EXTRA zapytań zapisów MX"
 
 #. Tag: para
 #, no-c-format

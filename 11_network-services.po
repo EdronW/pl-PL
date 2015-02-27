@@ -693,12 +693,12 @@ msgstr ""
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>email</primary><secondary>filtering on the recipient</secondary>"
-msgstr ""
+msgstr "Filtrowanie odbiorców poczty"
 
 #. Tag: title
 #, no-c-format
 msgid "Recipient checks"
-msgstr ""
+msgstr "Sprawdzenie odbiorców"
 
 #. Tag: programlisting
 #, no-c-format
@@ -722,12 +722,12 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Restrictions Associated with the <literal>DATA</literal> Command"
-msgstr ""
+msgstr "Ograniczenia dotyczące komendy DATA (danych)"
 
 #. Tag: para
 #, no-c-format
 msgid "The <literal>DATA</literal> command of SMTP is emitted before the contents of the message. It doesn't provide any information per se, apart from announcing what comes next. It can still be subjected to checks."
-msgstr ""
+msgstr "Polecenie DATA z SMTP jest wysyłane przed treścią/zawartością wiadomości. To nie dostarcza żadnych informacji per se, niezależnie od tego co będzie dalej. Może być wciąż (poddawany kontroli)/sprawdzany."
 
 #. Tag: indexterm
 #, no-c-format
@@ -754,17 +754,17 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Applying Restrictions"
-msgstr ""
+msgstr "Stosowanie ograniczeń"
 
 #. Tag: para
 #, no-c-format
 msgid "Although the above commands validate information at various stages of the SMTP exchange, Postfix only sends the actual rejection as a reply to the <literal>RCPT TO</literal> command."
-msgstr ""
+msgstr "Chociaż powyższe polecenia sprawdzenia informacji na różnych etapach wymiany SMTP, Postfix wysyła tylko rzeczywiste odrzucenie jako odpowiedź na komende RCPT TO."
 
 #. Tag: para
 #, no-c-format
 msgid "This means that even if the message is rejected due to an invalid <literal>EHLO</literal> command, Postfix knows the sender and the recipient when announcing the rejection. It can then log a more explicit message than it could if the transaction had been interrupted from the start. In addition, a number of SMTP clients do not expect failures on the early SMTP commands, and these clients will be less disturbed by this late rejection."
-msgstr ""
+msgstr "To znaczy że nawet jeżeli wiadomość jest odrzucona z powodu niewłaściwego polecenia, Postfix zna nadawcę i odbiorcę, gdy ogłasza odrzucenie. Następnie może zalogować bardziej wyraźny komunikat, jeśli transakcja została przerwana od początku. Ponadto, liczba klientów SMTP nie oczekuje nieudanych pierwszych poleceń SMTP, a tym klientom będzie mniej przeszkadzało to spóźnione odrzucenie."
 
 #. Tag: para
 #, no-c-format
@@ -774,17 +774,17 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Filtering Based on the Message Contents"
-msgstr ""
+msgstr "Filtrowanie oparte o treść wiadomości"
 
 #. Tag: para
 #, no-c-format
 msgid "The validation and restriction system would not be complete without a way to apply checks to the message contents. Postfix differentiates the checks applying on the email headers from those applying to the email body."
-msgstr ""
+msgstr "System zatwierdzania i ograniczania nie byłby kompletny bez możliwości zastosowania kontroli do treści wiadomości. Postfix odróżnia kontrolę obowiązującą w nagłówkach e-mail z tą obowiązującą w treści wiadomości."
 
 #. Tag: title
 #, no-c-format
 msgid "Enabling content-based filters"
-msgstr ""
+msgstr "Włączanie filtrów opartych na zawartości"
 
 #. Tag: programlisting
 #, no-c-format
@@ -939,12 +939,12 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Customizing Filters Based On the Recipient"
-msgstr ""
+msgstr "Dostosowywanie filtrów do Odbiorcy"
 
 #. Tag: para
 #, no-c-format
 msgid "The last two sections reviewed many of the possible restrictions. They all have their use in limiting the amount of received spam, but they also all have their drawbacks. It is therefore more and more common to customize the set of filters depending on the recipient. At Falcot Corp, greylisting is interesting for most users, but it hinders the work of some users who need low latency in their emails (such as the technical support service). Similarly, the commercial service sometimes has problems receiving emails from some Asian providers who may be listed in black-lists; this service asked for a non-filtered address so as to be able to correspond."
-msgstr ""
+msgstr "Ostatnie dwa rozdziały(dwie części) to przegląd wielu możliwych ograniczeń. Wszystkie limity mają zastosowanie w ograniczaniu ilości odbieranego spamu, ale także mają swoje wady. W związku z tym jest coraz bardziej powszechne, aby dostosować zestaw filtrów w zależności od odbiorcy."
 
 #. Tag: para
 #, no-c-format
